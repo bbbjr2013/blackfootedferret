@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+       <title>The Black-Footed Ferret</title>
+       <link rel="stylesheet" href="css/style.css"/>
+       <link rel="stylesheet" href="css/animate.css">
+
+	   <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+       <link href='http://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'>
+	   <link href='http://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'>
+	   <link href='http://fonts.googleapis.com/css?family=Futura:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+	   <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+	   <link href='http://fonts.googleapis.com/css?family=Goudy+Bookletter+1911' rel='stylesheet' type='text/css'>
+     <script src="bower_components/autoscroll.js"></script>
+     <link rel="icon" type="image/png" href="img/exFerret.png" size="32x32">
+     <script type="text/javascript" src="js/materialize.min.js"></script>
+
+     <script src="js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
+	<script>
+
+<!----- JQUERY FOR SLIDING NAVIGATION --->
+$(document).ready(function() {
+  $('a[href*=#]').each(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+    && location.hostname == this.hostname
+    && this.hash.replace(/#/,'') ) {
+      var $targetId = $(this.hash), $targetAnchor = $('[name=' + this.hash.slice(1) +']');
+      var $target = $targetId.length ? $targetId : $targetAnchor.length ? $targetAnchor : false;
+       if ($target) {
+         var targetOffset = $target.offset().top;
+
+<!----- JQUERY CLICK FUNCTION REMOVE AND ADD CLASS "ACTIVE" + SCROLL TO THE #DIV--->
+         $(this).click(function() {
+            $("#nav li a").removeClass("active");
+            $(this).addClass('active');
+           $('html, body').animate({scrollTop: targetOffset}, 920);
+           return false;
+         });
+      }
+    }
+  });
+
+});
+
+
+</script>
+
+
+ </head>
+
+<body>
+<!----- LINK BACK TO THE TUTORIAL--->
+
+
+
+<script>
+toast('Click nav bar links for better animation results!',4000,'rounded');
+</script>
+
+
+<!----- HEADER START--->
+<header id="header">
+<div class="content">
+<!-- <div id="logo"><a href=""> PARALLAX </a></div> -->
+
+<nav id="nav">
+	<ul>
+		<li><a href="#slide1" class="active" title="Next Section" >Home</a></li>
+		<li><a href="#slide2" title="Next Section">About</a></li>
+		<li><a href="#slide3" title="Next Section">Habitat</a></li>
+		<li><a  href="#slide4" title="Next Section">Extinction?!</a></li>
+		<li><a href="#slide5" title="Next Section">Preservation</a></li>
+	</ul>
+</nav>
+</div>
+</header>
+<!----- HEADER END--->
+
+<!----- SLIDES START --->
+	<div id="slide1">
+		<div class="content">
+
+      <h2 class="wow fadeInDown"  data-wow-duration="1.2s" data-wow-delay="0.1s">Black-footed</h2>
+      <h1 class="wow fadeInDown"  data-wow-duration="1.2s" data-wow-delay="0.1s">Ferret </h1>
+			<!-- <div id="christmas_tree"> </div>
+			<div id="snowflakes1"></div>
+			<div id="snowflakes2"></div>
+            <h2>MERRY</h2>
+		    <h1>CHRISTMAS</h1>
+		    <div id="divider"> </div>
+		     <h3>HAPPY NEW YEAR </h3>
+           <div id="ribbon"></div>
+	       <div id="new_year"> </div> -->
+		</div>
+    </div>
+
+	<section id="slide2" >
+		<div class="content" >
+      <h3 class="wow fadeIn"  data-wow-duration="1.2s" data-wow-delay="0.1s">About the Black-footed Ferret </h3>
+      <div id="ferret" class="wow fadeInLeft" data-wow-duration="1.3s" data-wow-delay="0.05s"></div>
+      <!-- This didn't work -->
+      <!-- <figure class="cbp-so-side cbp-so-side-left">
+        <img src="img/ferret2.png" >
+      </figure> -->
+      <div id="stat1" class="wow fadeInRight" data-wow-duration="1.0s" data-wow-delay="0.05s"></div>
+      <div id="stat2" class="wow fadeInRight" data-wow-duration="1.0s" data-wow-delay="0.2s"></div>
+      <div id="stat3" class="wow fadeInRight" data-wow-duration="1.0s" data-wow-delay="0.35s"></div>
+      <div id="stat4" class="wow fadeInRight" data-wow-duration="1.0s" data-wow-delay="0.45s"></div>
+            <!-- <div class="quotes_container">
+		    <h3 class="quotes">“Then the Grinch thought of something he hadn't before! What if Christmas, he thought, doesn't come from a store. What if Christmas...perhaps...means a little bit more!”</h3>
+		  <img src="img/dr-seuss.png" align="left"/> <h4 class="author_name_gray">Dr. Seuss </h4>
+		</div> -->
+		</div>
+  </section>
+
+
+   <div id="slide3">
+		<div class="content">
+      <h3 class="wow fadeIn"  data-wow-duration="1.2s" data-wow-delay="0.1s">Habitat</h3>
+      <div id="prairieD" class="wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.3s"></div>
+      <div id="ferretH" class="wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.3s"></div>
+      <div id="habitatBox" class="wow fadeIn" data-wow-duration="1.3s" data-wow-delay="0.3s"></div>
+      <div id="habitatStat1" class="wow fadeIn" data-wow-duration="1.3s" data-wow-delay="0.6s"></div>
+      <div id="habitatStat2" class="wow fadeIn" data-wow-duration="1.3s" data-wow-delay="0.6s"></div>
+			   <!-- <div class="quotes_container">
+
+		    </div> -->
+		</div>
+    </div>
+
+
+	<div id="slide4">
+		<div class="content">
+      <h3 class="wow fadeIn"  data-wow-duration="1.2s" data-wow-delay="0.1s">Extinction?!</h3>
+      <div id="exStat1" class="wow fadeIn" data-wow-duration="1.3s" data-wow-delay="0.6s"></div>
+      <div id="exBox1" class="wow fadeIn" data-wow-duration="1.3s" data-wow-delay="0.3s"></div>
+      <div id="fly1" class="wow fadeInLeft" data-wow-duration="1.3s" data-wow-delay="0.6s"></div>
+      <div id="fly2" class="wow fadeInRight" data-wow-duration="1.3s" data-wow-delay="1.3s"></div>
+      <div id="fly3" class="wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.9s"></div>
+      <!-- <div id="exFerret1" class="wow fadeOut" data-wow-duration="2s" data-wow-delay="2s"  data-wow-offset="10"></div>
+      <div id="exFerret2" class="wow fadeOut" data-wow-duration="infinite" data-wow-delay="2.3s"></div>
+      <div id="exFerret3" class="wow fadeOut" data-wow-duration="infinite" data-wow-delay="2.6s"></div> -->
+
+
+              <!-- <div class="quotes_container">
+		    <h3 class="quotes">“Christmas doesn't come from a store, maybe Christmas perhaps means a little bit more....” </h3>
+		  <img src="img/dr-seuss.png" align="left"/> <h4 class="author_name_gray">Dr. Seuss </h4>
+		</div> -->
+		</div>
+    </div>
+
+
+	<div id="slide5">
+		<div class="content">
+      <h3 class="wow fadeIn"  data-wow-duration="1.2s" data-wow-delay="0.1s">Preservation</h3>
+      <div id="preMap" class="wow fadeInLeft" data-wow-duration="1.3s" data-wow-delay="0.3s"></div>
+      <div id="preStates" class="wow fadeInRight" data-wow-duration="1.3s" data-wow-delay="0.9s"></div>
+      <div id="preArea1" class="wow fadeIn" data-wow-duration="1.3s" data-wow-delay="1.8s"></div>
+      <div id="preArea2" class="wow fadeIn" data-wow-duration="1.3s" data-wow-delay="2.7s"></div>
+      <div id="preBox" class="wow fadeIn" data-wow-duration="1.3s" data-wow-delay="0.6s"></div>
+      <div id="preStat1" class="wow fadeIn" data-wow-duration="1.3s" data-wow-delay="0.9s"></div>
+
+           <!-- <div class="quotes_container">
+		    <h3 class="quotes">“My idea of Christmas, whether old-fashioned or modern, is very simple: loving others. Come to think of it, why do we have to wait for Christmas to do that?” </h3>
+		    <img src="img/bob.png" align="left"/> <h4 class="author_name_white">Bob Hope </h4>
+		  </div> -->
+		<div id="totop"><a href="#slide1" class="active" title="Back to top" >Back to top?</a></div>
+		</div>
+
+
+    </div>
+
+<!----- SLIDES END --->
+<script src="js/classie.js"></script>
+<script src="js/cbpScroller.js"></script>
+</body>
+</html>
