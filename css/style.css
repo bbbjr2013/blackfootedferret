@@ -6,6 +6,8 @@ Author: Samuel Dalusung
 
 /*= GENERAL STYLING
 --------------------------------------------------------*/
+@font-face { font-family: FuturaStd-Bold; src: url('FuturaStd-Bold.otf'); }
+@font-face { font-family: FuturaStd-Bold; font-weight: bold; src: url('FuturaStd-Bold.otf');}
 
 body{
 	margin: 0;
@@ -14,20 +16,20 @@ body{
 }
 
 h1 {
-    font-family:"Futura";
-	font-weight:medium;
+    font-family:"FuturaStd-Bold";
+	font-weight:bold;
 	font-size: 195px;
 	text-align: center;
 	color: #fff;
-	margin: -60px;
+	margin: -40px;
 	padding: 0px;
 
 }
 
 h2 {
-   font-family:"Futura";
-   font-weight: medium;
-   font-size: 90px;
+   font-family:"FuturaStd-Bold";
+   font-weight: bold;
+   font-size: 87.5px;
    text-align: center;
    color: #fff;
    margin: 0;
