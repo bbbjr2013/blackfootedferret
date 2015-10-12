@@ -135,7 +135,7 @@ a.rpanel:hover{ color: #fff; }
 #preMap{ background: url('../img/preMap.png')no-repeat; width: 636px; height: 350px; margin-left: auto; margin-right: auto; top: -85px; ; position: relative; display: block; z-index: 1;}
 #preStates{ background: url('../img/preStates.png')no-repeat; width: 250px; height: 325px; left: 257px; top: -426px;  position: relative; display: block; z-index: 1;}
 #preArea1{ background: url('../img/preArea1.png')no-repeat; width: 177px; height: 293px; left: 285px; top: -760px;  position: relative; display: block; z-index: 1;}
-#preArea2{ background: url('../img/preArea2.png')no-repeat; width: 151px; height: 270px; left: 285px; top: -1050px;  position: relative; display: block; z-index: 1;}
+#preArea2{ background: url('../img/preArea2.png')no-repeat; width: 151px; height: 273px; left: 285px; top: -1050px;  position: relative; display: block; z-index: 1;}
 #preStat1{ background: url('../img/preStat1.png')no-repeat; width: 804px; height: 164px; margin-left: auto; margin-right: auto; top: -1140px; position: relative; display: block; z-index: 1;}
 #preBox{ background: url('../img/preBox.png')no-repeat; width: 888px; height: 217px; margin-left: auto; margin-right: auto; top: -950px; position: relative; display: block; z-index: 1;}
 
